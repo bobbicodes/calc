@@ -327,9 +327,8 @@
      [:h3
       (tex "f") [:span ":"]]
      [editor/editor @code !editor-view {:eval? true}]
-     [:span 
+     [:span
       [:button {:on-click #(when (number? (eval-all (str "(" (get-editor-value) " " 1 ")")))
-                                   (reset! function-atom (eval-all (get-editor-value))))
-                      :style {:margin-top "1rem"}}
-             (tex "f(x)")]]
-     [:p {:style {:margin-top "1rem"}}]])
+                             (reset! function-atom (eval-all (get-editor-value))))
+                :style {:margin-top "1rem"}}
+       (tex "f(x)")]]])
