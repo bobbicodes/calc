@@ -14,3 +14,6 @@ pom.xml.asc
 /.repl
 *.log
 /.env
+.shadow-cljs/
+node_modules/
+.calva/

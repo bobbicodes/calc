@@ -1,16 +1,9 @@
-(ns dijkstra-cljs.app
-  "Many beautiful implementations of Dijkstra's shortest path algorithm
-   exist in Clojure, from the very performant to the most elegant and concise.
-   This one is designed to be a learning tool that runs in the browser,
-   tracking the operations in a central Reagent atom called `graph-db`,
-   allowing the user to step through them and build intuition."
+(ns calc.app
   (:require [reagent.core :as r]
             [reagent.dom :as rdom]
-            [dijkstra-cljs.sort :as sort]
-            [dijkstra-cljs.conway :as conway]
             [clojure.pprint :as pprint]
             [clojure.edn :as edn]
-            [dijkstra-cljs.graph :as graph]))
+            [calc.graph :as graph]))
 
 (defn svg-node [label x y]
   [:g [:circle {:fill "yellow" :stroke "black" :cx x :cy y :r 18}]

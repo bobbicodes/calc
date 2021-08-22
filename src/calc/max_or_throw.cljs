@@ -1,4 +1,4 @@
-(ns dijkstra-cljs.max-or-throw
+(ns calc.max-or-throw
   "Taken from a previous version of SCI. See
   https://github.com/borkdude/sci/commit/4197294987cdd85a8c909328c6fc5d5ba92fa7c6.")
 

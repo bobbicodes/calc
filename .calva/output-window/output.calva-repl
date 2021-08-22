@@ -15,7 +15,7 @@
 ;   - `alt+up` and `alt+down` traverse up and down the REPL command history
 ;      when the cursor is after the last contents at the prompt
 ;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+clj꞉shadow.user꞉> 
 ; Creating cljs repl session...
 ; Connecting cljs repl: shadow-cljs...
 ;   The Calva Connection Log might have more connection progress information.
@@ -24,117 +24,4 @@ clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
 ;    *Calva: Toggle REPL connection*
 ;    (There is a button in the status bar for this)
 ; Jack-in done.
-cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
-#'calc.core/x-lines
-cljs꞉calc.core꞉> 
-([:line {:x1 0, :y1 0, :x2 0, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 5.882352941176471, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 11.764705882352942, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 17.647058823529413, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 23.529411764705884, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 29.411764705882355, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 35.294117647058826, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 41.1764705882353, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 47.05882352941177, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 52.94117647058824, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 58.82352941176471, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 64.70588235294119, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 70.58823529411765, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 76.47058823529412, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 82.3529411764706, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 88.23529411764707, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 94.11764705882354, :y2 0, :stroke "gray", :stroke-width 0.1}])
-cljs꞉calc.core꞉> 
-#'calc.core/x-lines
-cljs꞉calc.core꞉> 
-[:g
- [:line {:x1 0, :y1 0, :x2 0, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 5.882352941176471, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 11.764705882352942, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 17.647058823529413, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 23.529411764705884, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 29.411764705882355, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 35.294117647058826, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 41.1764705882353, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 47.05882352941177, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 52.94117647058824, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 58.82352941176471, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 64.70588235294119, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 70.58823529411765, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 76.47058823529412, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 82.3529411764706, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 88.23529411764707, :y2 0, :stroke "gray", :stroke-width 0.1}]
- [:line {:x1 0, :y1 0, :x2 94.11764705882354, :y2 0, :stroke "gray", :stroke-width 0.1}]]
-cljs꞉calc.core꞉> 
-#'calc.core/home-page
-cljs꞉calc.core꞉> 
-; Syntax error reading source at (REPL:9:17).
-; Unsupported escape character: \s
-clj꞉uc.generate꞉> 
-; Syntax error reading source at (REPL:13:23).
-; Unsupported escape character: \s
-clj꞉uc.generate꞉> 
-#'uc.generate/small-numbers
-clj꞉uc.generate꞉> 
-({:n "0", :f "\\small{0}"}
- {:n "1", :f "\\small{1}"}
- {:n "2", :f "\\small{2}"}
- {:n "3", :f "\\small{3}"}
- {:n "4", :f "\\small{4}"}
- {:n "5", :f "\\small{5}"}
- {:n "6", :f "\\small{6}"}
- {:n "7", :f "\\small{7}"}
- {:n "8", :f "\\small{8}"}
- {:n "9", :f "\\small{9}"})
-clj꞉uc.generate꞉> 
-#'uc.generate/small-numbers
-clj꞉uc.generate꞉> 
-({:n "small-0", :f "\\small{0}"}
- {:n "small-1", :f "\\small{1}"}
- {:n "small-2", :f "\\small{2}"}
- {:n "small-3", :f "\\small{3}"}
- {:n "small-4", :f "\\small{4}"}
- {:n "small-5", :f "\\small{5}"}
- {:n "small-6", :f "\\small{6}"}
- {:n "small-7", :f "\\small{7}"}
- {:n "small-8", :f "\\small{8}"}
- {:n "small-9", :f "\\small{9}"})
-clj꞉uc.generate꞉> 
-; Syntax error reading source at (REPL:11:17).
-; Unsupported escape character: \s
-clj꞉uc.generate꞉> 
-; Syntax error (ArityException) compiling at (generate.clj:7:3).
-; Wrong number of args (3) passed to: clojure.core/for
-clj꞉uc.generate꞉> 
-#'uc.generate/small-neg-nums
-clj꞉uc.generate꞉> 
-#'uc.generate/small-nums
-clj꞉uc.generate꞉> 
-nil
-clj꞉uc.generate꞉> 
-#'uc.generate/tex2svg
-clj꞉uc.generate꞉> 
-#'uc.generate/small-nums
-clj꞉uc.generate꞉> 
-#'uc.generate/small-neg-nums
-clj꞉uc.generate꞉> 
-#'uc.generate/renderer
-clj꞉uc.generate꞉> 
-#'uc.generate/renderer
-clj꞉uc.generate꞉> 
-#'uc.generate/-main
-clj꞉uc.generate꞉> 
-(nil nil nil nil nil nil nil nil nil nil)
-clj꞉uc.generate꞉> 
-#'uc.generate/-main
-clj꞉uc.generate꞉> 
-(nil nil nil nil nil nil nil nil nil nil)
-clj꞉uc.generate꞉> 
-#'calc.core/home-page
-cljs꞉calc.core꞉> 
-nil
-cljs꞉calc.core꞉> 
-nil
-cljs꞉calc.core꞉> 
-nil
-cljs꞉calc.core꞉> 
+cljs꞉cljs.user꞉> 

@@ -1,6 +1,6 @@
-(ns dijkstra-cljs.sci
+(ns calc.sci
   (:require ["@codemirror/view" :as view]
-            [dijkstra-cljs.max-or-throw :refer [max-or-throw]]
+            [calc.max-or-throw :refer [max-or-throw]]
             [applied-science.js-interop :as j]
             [nextjournal.clojure-mode.extensions.eval-region :as eval-region]
             [sci.core :as sci]

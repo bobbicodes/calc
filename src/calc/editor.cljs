@@ -1,4 +1,4 @@
-(ns dijkstra-cljs.editor
+(ns calc.editor
   (:require ["@codemirror/fold" :as fold]
             ["@codemirror/closebrackets" :refer [closeBrackets]]
             ["@codemirror/gutter" :refer [lineNumbers]]
@@ -6,7 +6,7 @@
             ["@codemirror/history" :refer [history historyKeymap]]
             ["@codemirror/state" :refer [EditorState]]
             ["@codemirror/view" :as view :refer [EditorView]]
-            [dijkstra-cljs.sci :as sci]
+            [calc.sci :as sci]
             [applied-science.js-interop :as j]
             [nextjournal.clojure-mode.extensions.close-brackets :as close-brackets]
             [nextjournal.clojure-mode :as cm-clj]
